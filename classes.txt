@@ -1,0 +1,231 @@
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/conatiner-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+1. .conatiner (fixed-width)
+2. .conatiner-fluid (full width)
+
+
+3. .conatiner-5m viewport-width:>=576px          conatiner-max-width:540px
+4. .conatiner-md viewport-width:>=768px          conatiner-max-width:720px
+5. .conatiner-lg viewport-width:>=992px          conatiner-max-width:960px
+6. .conatiner-xl viewport-width:>=1200px         conatiner-max-width:1140px
+7. .conatiner-xxl viewport-width:>=1400px        conatiner-max-width:1320px
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ UTILITY CLASSES-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- SPACING CLASSES *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+1. margin -m
+2. padding -p
+
+side                        size
+t-top                       0-0         
+b-bottom                    1-0.25rem   (4px)
+s-start (left)              2-0.5rem    (8px)
+e-end   (right)             3-1rem      (16px)
+x-left+right                4-1.5rem    (24px)
+y-top+bottom                5-3rem      (48px)
+                            auto-auto(margin only)
+
+3. width-class  (w-*)
+4. height-class (h-*)
+
+25%  (w-25)      h-25
+50%  (w-50)      h-50
+75%  (w-75)      h-75
+100% (w-100)     h-100
+    w-auto       h-auto
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- COLOR CLASSES *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+color
+
+    text-primary
+    text-secondary
+    text-success
+    text-danger
+    text-info
+    text-warning
+    text-dark
+    text-light
+    text-muted
+    text-white
+
+
+    bg-primary
+    bg-secondary
+    bg-success
+    bg-danger
+    bg-info
+    bg-warning
+    bg-dark
+    bg-light
+    bg-white
+    bg-transparent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- TYPOGRAPHY CLASSES *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+text-lowercase
+text-uppercase
+text-capitalize
+text-decoration-none
+text-decoration-underline
+text-decoration-line-through
+text-start
+text-end
+text-center
+
+*font-size
+fs-1 to fs-6 
+fw-bold
+fw-bolder
+fw-light
+fw-lighter
+fst-italic
+fst-normal
+shadow
+shadow-sm
+shadow-lg
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ BORDER CLASS-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+border
+border-0
+border-top
+border-bottom
+border-start
+border-end
+
+border-primary
+border-secondary
+border-success
+border-danger
+border-info
+border-warning
+border-dark
+border-light
+border-white
+
+border-1
+border-2
+border-3
+border-4
+border-5
+
+rounded-(0.25rem)
+rounded-circle
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ DISPLAY CLASS-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+d-none
+d-block
+d-inline
+d-inline-block
+d-flex
+d-inline-flex
+d-grid  
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- FLEX *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+d-flex
+d-inline-flex
+flex-row
+flex-cloumn
+flex-row-reverse
+flex-cloumn-reverse
+
+-- arranges items horizontally
+justify-content-start
+justify-content-end
+justify-content-center
+justify-content-between
+justify-content-around
+justify-content-evenly
+
+-- arranges items vertically
+align-items-start
+align-items-end
+align-items-center
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ POSITIONING CLASS-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+position-static                           top-0/top-50/top-100
+position-absolute                         bottom-0/bottom-50/bottom-100
+position-relative                         start-0/start-50/start-100
+position-fixed                            end-0/end-50/end-100
+position-sticky
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ IMAGE CLASS-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+img-fluid       -responsive
+img-rounded 
+rounded 
+rounded-circle
+img-thumbnail 
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ TABLE CLASS-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+table
+table-striped
+table-bordered
+table-borderless
+table-hover
+table-sm
+table-dark
+table-light
+
+*color
+table-primary
+table-secondary
+table-success
+table-danger
+table-info
+table-warning
+
+table-responsive
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ BUTTON CLASS-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+    btn-primary
+    btn-secondary
+    btn-success
+    btn-danger
+    btn-info
+    btn-warning
+    btn-dark
+    btn-light
+    btn-muted
+    btn-white
+
+*button-ouline
+
+    btn-outline-primary
+    btn-outline-secondary
+    btn-outline-success
+    btn-outline-danger
+    btn-outline-info
+    btn-outline-warning
+    btn-outline-dark
+    btn-outline-light
+    btn-outline-muted
+    btn-outline-white
+
+*size
+
+btn-lg
+btn-defaut
+btn-sm
+w-100 --full width
+
+class=active
+property=disabled
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ SPINNER CLASS-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+
+--types
+border spinner
+growing spinner
+
+*classes
+spinner-border
+spinner-grow
+spinner-border-sm
+spinner-grow-sm
