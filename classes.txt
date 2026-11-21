@@ -229,3 +229,14 @@ spinner-border
 spinner-grow
 spinner-border-sm
 spinner-grow-sm
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ GRID CLASS-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+ BREAKPOINT          CLASS             width
+ extrasmall          col               <576px
+ small               col-sm            >=576px
+ medium              col-md            >=768px
+ large               col-lg            >=992px
+ extra large         col-xl            >=1200px
+ extra extra large   col-xxl           >=1400px
+  
