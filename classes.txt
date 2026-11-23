@@ -239,4 +239,58 @@ spinner-grow-sm
  large               col-lg            >=992px
  extra large         col-xl            >=1200px
  extra extra large   col-xxl           >=1400px
-  
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ CARD CLASS-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+card
+card-img-top 
+card-body
+card-title (used with heading tag like h5 or h4)
+card-text
+card-header
+card-link
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ ALERTS CLASS-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+alert
+ 
+alerts-secondary
+alert-success
+alert-danger
+alert-info
+alert-warning
+alert-dark
+alert-light
+alert-primary
+
+alert-dismissible
+fade
+show
+btn-close
+**most imp property 
+you can't close the alert without this property 
+
+property:data-bs-dismiss="alert"
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ DROPDOWN CLASS-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+dropdown
+dropdown-toggle
+dropdown-menu
+dropdown-item
+dropdown-header
+dropdown-divider
+active/disabled
+
+property:data-bs-toggle="dropdown"
+
+-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ COLLAPSE CLASS-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+collapse
+property:data-bs-toggle="collapse"
+property:data-bs-target="#id1"
+            id="id1"
+    href="#id1"
+
+
+
